@@ -1,27 +1,26 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
- public class PemrosesData
+public class SimpleDataBase
 {
-    public void DapatkanNilaiTerbesar<T>(T a,T b, T c)
+    private stroreData List T;
+    private InputDates List Data;
+
+    public void SimpleDataBase(T List)
     {
-        dynamic m = a;
-        dynamic n = b;
-        dynamic p = c;
-        dynamic max = m;
-        if (n > max)
-        {
-            max = n;
-            Console.WriteLine($"Nilai tertingg : {max}");
-        } else if (p > n)
-        {
-            max = p;
-            Console.WriteLine($"Nilai tertingg : {max}");
-        } else
-        {
-            max = m;
-            Console.WriteLine($"Nilai tertingg : {max}");
-        }
+        this.List = List;
     }
+
+    public void AddNewData(T)
+    {
+
+    }
+
+    public void PrintAllData()
+    {
+
+    }
+
 }
 
 public class Program
@@ -29,8 +28,6 @@ public class Program
      public static void Main(string[] args)
     {
 
-        PemrosesData nilai = new PemrosesData();
-
-        nilai.DapatkanNilaiTerbesar<int>(10,30,22);
+       
     }
 }
